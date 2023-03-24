@@ -9,7 +9,7 @@ const MyBag = props => (
     </Head>
 
     <div className="hero">
-      <h1>my bag page</h1>
+      <h1>my bag pagefef</h1>
       <h3 className="title">This is a federated page, consumed by localhost:3001</h3>
       <br />
     </div>

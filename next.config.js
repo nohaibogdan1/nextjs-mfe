@@ -10,8 +10,6 @@ module.exports = {
         new NextFederationPlugin({
           name: 'checkout',
           remotes: {
-            home: `home@http://localhost:3001/_next/static/chunks/remoteEntry.js`,
-            shop: 'shop@http://localhost:3002/_next/static/chunks/remoteEntry.js',
           },
           filename: 'static/chunks/remoteEntry.js',
           exposes: {

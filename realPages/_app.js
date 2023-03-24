@@ -1,17 +1,9 @@
 import App from 'next/app';
-import dynamic from 'next/dynamic';
-const Nav = dynamic(
-  () => {
-    const mod = import('home/nav').catch(console.error);
-    return mod;
-  },
-  { ssr: false },
-);
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Nav />
+      <div>Hi</div>
       <Component {...pageProps} />
     </>
   );
